@@ -1,3 +1,4 @@
 # Advanced-Java-Programming
-This repository contains Advanced Java programs and implementations based on modern Java and enterprise-level concepts.
-It focuses on practical coding, real-world usage, and hands-on implementations.
+This repository is created for the Advanced Java Programming course as part of the MCA program. 
+It contains important Advanced Java programs and implementations focused on modern Java features and backend development concepts.
+The repository is meant for practical learning, hands-on coding, and continuous practice throughout the course.
