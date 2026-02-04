@@ -9,7 +9,8 @@ class Circle implements Area{
         this.r = r;
     }
     public double getArea(){
-        double area = PI*r*r;
+        //double area = PI*r*r;
+        //return area;
         return (PI*r*r);
     }
     void display(){
