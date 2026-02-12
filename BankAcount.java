@@ -1,11 +1,11 @@
 class BankAccount {
     double accountNumber;
     String accountHolder;
-    double b;
-    BankAccount(double accountNumber, String accountHolder, double b){
+    double balance;
+    BankAccount(double accountNumber, String accountHolder, double balance){
         this.accountNumber = accountNumber;
         this.accountHolder = accountHolder;
-        this.b = b;
+        this.balance = balance;
     }
     void deposit(double am){
         System.out.println("Amount: " + am);
