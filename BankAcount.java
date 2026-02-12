@@ -17,6 +17,11 @@ class BankAccount {
         System.out.println("Balance: " + balance);
     }
     public static void main(String[] args){
+        BankAccount ob1 = new BankAccount(20470, "Krishna", 90000);
+        ob1.deposit(4500);
+        ob1.withdraw(5000);
+        ob1.getBalance();
+
         BankAccount ob = new BankAccount(20470, "Krishna", 90000);
         ob.deposit(4500);
         ob.withdraw(5000);
