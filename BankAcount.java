@@ -7,14 +7,14 @@ class BankAccount {
         this.accountHolder = accountHolder;
         this.balance = balance;
     }
-    void deposit(double am){
-        System.out.println("Amount: " + am);
+    void deposit(double amount){
+        System.out.println("Amount: " + amount);
     }
-    void withdraw(double am){
-        System.out.println("Withdrawl Amount: " + am);
+    void withdraw(double amount){
+        System.out.println("Withdrawl Amount: " + amount);
     }
     void getBalance(){
-        System.out.println("Balance: " + b);
+        System.out.println("Balance: " + balance);
     }
     public static void main(String[] args){
         BankAccount ob = new BankAccount(20470, "Krishna", 90000);
