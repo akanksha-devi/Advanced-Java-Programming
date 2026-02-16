@@ -18,13 +18,13 @@ interface Calc{
 
 class Calculator implements Calc{
     @Override
-    public void Calculate(int n1, int n2){
+    public void calculate(int n1, int n2){
         int add = n1 + n2;
         System.out.println("Sum: " + add);
     }
 
     @Override
-    public void Calculate(int n1,  int n2, int n3){ //override in modern java.
+    public void calculate(int n1,  int n2, int n3){ //override in modern java.
         int s = n1 + n2 + n3;
         System.out.println("Sum in subclass: " + s);
     }
