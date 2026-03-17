@@ -23,7 +23,7 @@ public class FilterAPI {
        
        
        list.stream().filter((n) -> n>60).forEach((n) -> System.out.print(n + " "));   // another method of using stream
-       List<Integer> g60 = list.stream().filter((n) -> n>60 && n<90).toList();   //for printing list
+       List<Integer> g60 = list.stream().filter((n) -> n>60 && n<90).toList();   //for printing list.
        System.out.println();
        System.out.println(g60);
 	}
